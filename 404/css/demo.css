@@ -1,0 +1,48 @@
+.demo-header{background-color:#313439;width:100%;z-index:8;top:0;box-shadow:0 1px 2px rgba(0,0,0,0.1);position:fixed}
+.demo-header .navbar{width:95%;margin:0 auto;overflow:hidden}
+.demo-header .navbar li{line-height:50px;float:left}
+.demo-header .navbar li span.ma .erl{border:1px solid #e2e2e2;z-index:99;position:absolute;width:200px;color:#808080;text-align:center;display:none;background-color:#fff}
+.demo-header .navbar li span.ma .erl p{height:20px;display:block;line-height:20px;margin-top:-10px;padding-bottom:10px}
+.demo-header .navbar li span{cursor:pointer;opacity:.5;display:block}
+.demo-header .navbar li span #ma{margin-top:20px}
+.demo-header .navbar li span:hover{opacity:1}
+.demo-header .navbar li span.arve{opacity:1;background:none}
+.demo-header .navbar li span{color:#fff}
+.demo-header .navbar li .title h1{color:#fff;font-size:15px;margin-left:15px;font-weight: inherit;}
+.demo-header .navbar li .title h1:hover{color: #FF5E52;}
+.demo-header .navbar li span .icon{width:20px;height:20px;position:relative;top:5px}
+.demo-header .navbar li span.ma{margin-left:30px;font-size:14px}
+.demo-header .navbar li span.ma .erl{border:1px solid #e2e2e2;z-index:99;position:absolute;width:200px;color:#808080}
+.navbar li span.ma:hover .erl{display:block}
+.demo-header .navbar span{margin-left:20px;text-align:center;font-size:14px;color:#fff}
+.preview-view{position:absolute;overflow:hidden}
+.preview-pc .preview-view{position:inherit}
+.preview-nav-list-block span{height:34px;line-height:34px;color:#888888;display:inline-block;cursor:pointer}
+.preview-nav-list-block span + span::before{content:"/\00a0";padding:0 8px;color:#ccc}
+.preview-nav-list-block span.active,.preview-nav-list-block span:hover{color:#4DA7FD}
+iframe{width:100%;background-color:#fff;border:none}
+.preview-nav-list{background-color:#fff;overflow:hidden}
+.preview-nav-list-block{padding:3px;margin-left:50px}
+.preview-portrait .preview-view,.preview-phone .preview-view{top:76px;left:16px}
+.preview-portrait .preview-view{width:570px;height:631px}
+.preview-phone,.preview-phone2,.preview-landscape,.preview-portrait{margin:0 auto;border-radius:40px;box-shadow:0 1px 2px rgba(0,0,0,0.2);position:relative}
+.preview-portrait{width:603px;height:782px;background-color:#fff}
+.preview-phone .preview-top,.preview-portrait .preview-top{height:76px;padding-top:26px;width:100%}
+.preview-phone .preview-top i,.preview-portrait .preview-top i{margin-bottom:6px;display:block}
+.preview-top i{margin:0 auto;height:11px;width:11px;border-radius:50%}
+.preview-top i,.preview-top span,.preview-home{background:#e3e3e3}
+.preview-portrait .preview-top span,.preview-phone .preview-top span{margin:0 auto;height:8px;width:86px;border-radius:30px;display:block}
+.preview-phone .preview-home,.preview-portrait .preview-home{bottom:20px;margin-left:-21px;width:42px;height:42px;left:50%;background:#e3e3e3;border-radius:50%;position:absolute}
+.preview-landscape .preview-view{left:76px;top:16px;width:750px;height:477px;position:absolute}
+.preview-landscape{height:514px;width:900px;background-color:#fff}
+.preview-phone2 .preview-top,.preview-landscape .preview-top{width:76px;padding-left:26px;height:100%}
+.preview-phone2 .preview-top i,.preview-landscape .preview-top i{margin-left:6px;top:48%;display:block;position:absolute;background:#e3e3e3}
+.preview-phone2 .preview-top span,.preview-landscape .preview-top span{margin:0 auto;height:86px;width:8px;border-radius:30px;top:40%;left:50px;display:block;position:absolute}
+.preview-landscape .preview-home,.preview-phone2 .preview-home{top:50%}
+.preview-landscape .preview-home{right:20px;margin-top:-21px}
+.preview-phone2 .preview-home,.preview-landscape .preview-home{width:42px;height:42px;position:absolute;border-radius:50%}
+.preview-phone{width:407px;height:711px;background-color:#fff}
+.preview-phone .preview-view{width:375px;height:560px}
+.preview-phone2{height:357px;width:800px;background-color:#fff}
+.preview-phone2 .preview-view{left:76px;top:16px;width:640px;height:320px}
+.preview-phone2 .preview-home{right:20px;margin-top:-21px}
